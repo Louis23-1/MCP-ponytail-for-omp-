@@ -34,7 +34,7 @@
   ],
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test test/",
+    "test": "node --test",
     "sync": "node scripts/sync-prompts.mjs"
   }
 }
