@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/Louis23-1/ponytail",
+  "upstream": "https://github.com/DietrichGebert/ponytail",
+  "ref": "main",
+  "commit": "b088b2df6e08d4306c6a3c3d575fe38c2d2d2989",
+  "syncedAt": "2026-10-08",
+  "files": {
+    "prompts/ponytail.md": "skills/ponytail/SKILL.md",
+    "prompts/ponytail-review.md": "skills/ponytail-review/SKILL.md",
+    "prompts/ponytail-audit.md": "skills/ponytail-audit/SKILL.md",
+    "prompts/ponytail-debt.md": "skills/ponytail-debt/SKILL.md",
+    "prompts/ponytail-gain.md": "skills/ponytail-gain/SKILL.md",
+    "prompts/ponytail-help.md": "skills/ponytail-help/SKILL.md",
+    "LICENSE": "LICENSE"
+  }
+}

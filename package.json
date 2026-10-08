@@ -1,0 +1,40 @@
+{
+  "name": "ponytail-mcp",
+  "version": "1.0.0",
+  "description": "Ponytail (lazy senior dev mode) as an MCP server: ruleset in every session, level switching, the six /ponytail-* commands, and the `ponytail:` debt ledger.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louis23-1/MCP-ponytail-for-omp-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Louis23-1/MCP-ponytail-for-omp-/issues"
+  },
+  "homepage": "https://github.com/Louis23-1/MCP-ponytail-for-omp-#readme",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ponytail",
+    "omp",
+    "coding-agent"
+  ],
+  "bin": {
+    "ponytail-mcp": "server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "server.mjs",
+    "lib/",
+    "prompts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/",
+    "sync": "node scripts/sync-prompts.mjs"
+  }
+}
